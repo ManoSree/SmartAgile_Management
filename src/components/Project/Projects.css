@@ -1,0 +1,124 @@
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 600px;
+  }
+  
+  .logo {
+    max-width: 50px;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  .header {
+    margin: 20px 0;
+  }
+  
+  .header h2 {
+    margin: 0;
+    color: #888;
+    font-weight: normal;
+  }
+  
+  .header h1 {
+    margin: 5px 0 0 0;
+    color: #333;
+  }
+  
+.projects-grid {
+  display: flex;
+  /* grid-template-columns: repeat(2, 1fr);
+  gap: 2px;
+  padding: 20px;
+  margin-top: 30px; 
+  margin-left: 300px;
+ */
+ flex-wrap: wrap;
+ gap: 60px;
+
+ justify-content: center;
+ padding: 20px;
+}
+
+.project-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  height: 300px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+
+  padding: 10px;
+  background-color: #ffffff6b;
+  justify-content: center;
+}
+
+.project-img {
+  width:.44.44px;
+  height: 40px;
+  border-radius: 5px;
+  margin-right: 250px;
+  margin-bottom: 3px;
+  margin-top: 5px;
+  align-self: center;
+
+}
+
+.title{
+  margin: -230px;
+  font-size: 20px;
+}
+
+.deadline {
+  width: 100px;
+  height: 15px;
+  background-color: #4d989d;
+  border-radius: 20px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  font-size: 9px;
+}
+.desc{
+  margin-left: 10px;
+  margin-top: 20px;
+  font-size:12px;
+}
+.project-desc{
+   margin-bottom: 20px;
+   font-size: 12px;
+}
+
+.project-body {
+  padding: 15px;
+}
+
+.project-title {
+  margin-bottom: 15px; 
+}
+.project-text {
+  margin-bottom: 10px; 
+}
+
+.project-text-small {
+  color: #6c757d; 
+}
+
+.team{
+  margin-right:80px;
+}
