@@ -1,5 +1,4 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './Projects.css'; // Adjust the path to where your CSS file is located
 import Smart_agile from '../Project/Smart_agile.png';
 import Eye_point from '../Project/Eye_point.png';
@@ -32,7 +31,7 @@ const Project = () => {
           </div>
           <p className='desc'>“Vision Meets Interaction”</p>
           <p className='project-desc'>EyePoint is a revolutionary technology that unlocks the secrets of the human gaze, turning eye movements into powerful insights. </p>
-          <img src={Team_member} alt="Team_member" className='team' />
+          <img src={Team_member} alt="Team_member" className='team1' />
         </div>
         <div className='deadline'>
           Deadline : {"05/07/2024"}
@@ -46,7 +45,7 @@ const Project = () => {
           </div>
           <p className='desc'>“Just a glance for accuracy”</p>
           <p className='project-desc'>Attendance Tracker is more than just an attendance system; it's a gateway to a smarter, more efficient future.</p>
-          <img src={Team_member} alt="Team_member" className='team' />
+          <img src={Team_member} alt="Team_member" className='team2' />
         </div>
         <div className='deadline'>
           Deadline : {"05/07/2024"}
@@ -60,7 +59,7 @@ const Project = () => {
           </div>
           <p className='desc'>“Revolutionary system in transportation of goods”</p>
           <p className='project-desc'>It's a collaborative network unlocking the hidden potential of unused space in vehicles by renting the space to others to transport their goods.</p>
-          <img src={Team_member} alt="Team_member"  className='team'/>
+          <img src={Team_member} alt="Team_member"  className='team3'/>
         </div>
         <div className='deadline'>
           Deadline : {"05/07/2024"}
